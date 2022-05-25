@@ -103,3 +103,49 @@ head {
     background: rgba(0, 0, 0, 0.33);
     cursor: pointer;
 }
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col {
+  flex-grow: 1;
+  margin: 8px;
+}
+.color-col{
+  color: white;
+}
+.br{
+  text-align: justify;
+  text-indent: 1.5em;
+}
+section {
+  display: none;
+}
+.show {
+  display: block;
+}
+.text-center{
+  text-align: center;
+}
+
+#contacts iframe {
+  width: 100%;
+  border-radius: 5px;
+  height: 400px;
+}
+.flex-start{
+  justify-content: flex-start;
+}
+.col-margin{
+  margin: 6px;
+}
+.backgr{
+  background: rgba(0, 0, 0, 0.48);
+  border-radius: 4px;
+  margin-left: -8px;
+}
+.col-margin span{
+  margin-left: 10px;
+}

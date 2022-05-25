@@ -24,17 +24,104 @@
     </div>
     <div class="content">
       <div class="left">
-        <div class="menu-item">
-            <span>Главная</span>
+        <div class="menu-item active" data-section="main">
+          <span>Главная</span>
         </div>
-        <div class="menu-item">
-            <span>Контакты</span>
+        <div class="menu-item" data-section="contacts">
+          <span>Контакты</span>
         </div>
-        <div class="menu-item active">
-            <span>О сайте</span>
+        <div class="menu-item" data-section="about">
+          <span>О сайте</span>
         </div>
       </div>
-      <div class="style">Главная</div>
+      <div class="style">
+        <section id="main" class="show">
+          <div class="row">
+            <div class="col color-col">Арарат</div>
+          </div>
+          <div class="row">
+            <div class="col color-col br">
+              Арарат
+              <em
+                >Арара́т (тур. Ağrı Dağı, арм. и арм. (Масис), курд. Çiyayê
+                Agirî)</em
+              >
+              — гора: самый высокий вулканический массив Армянского нагорья на
+              востоке Турции; относится к стратовулканам. Находится в Ыгдыре по
+              правому берегу среднего течения реки Аракс в 16 километрах от
+              границы с Ираном, в 32 километрах от границы с Арменией. Состоит
+              из двух слившихся основаниями конусов спящих вулканов: Большого
+              Арарата и Малого Арарата. Вершина Большого Арарата (5165 метров
+              над уровнем моря) является самой высокой точкой Турции. Расстояние
+              между соседними конусами составляет 11 км.
+            </div>
+            <div class="col">
+              <img src="./images/romashka.jpg" width="300px" />
+            </div>
+          </div>
+        </section>
+        <section id="contacts">
+          <div class="row">
+            <div class="col">
+              <div class="row">
+                <div class="col">
+                  <span class="text-center color-col">Наше местоположение</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2716.154943968032!2d37.54655271488034!3d47.09603307915418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e6e335da0e7bc3%3A0x32c61dcd41c1b0bc!2z0JTRgNCw0LzRgtC10LDRgtGA!5e0!3m2!1sru!2sua!4v1653512163908!5m2!1sru!2sua"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col">
+                  <span class="text-center color-col">Контакты</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col backgr">
+                  <div class="row flex-start col-margin">
+                    <img src="./images/call.svg" width="20px" />
+                    <span class="color-col col-margin"
+                      >+38 (060) 76 93 643</span
+                    >
+                  </div>
+                  <div class="row flex-start col-margin">
+                    <img src="./images/email.svg" width="20px" />
+                    <span class="color-col">developer@gmail.com</span>
+                  </div>
+                  <div class="row flex-start col-margin">
+                    <img src="./images/skype.svg" width="20px" />
+                    <span class="color-col">developer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="about">
+          <div class="row">
+            <div class="col">
+              <span class="color-col"
+                >Это мой первый сайт. Надеюсь Вам понравилось !!! ©
+                Developer</span
+              >
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./scripts/script.js" type="text/javascript"></script>
 </html>
