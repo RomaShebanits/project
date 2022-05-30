@@ -5,7 +5,7 @@ head {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-@media (min-width: 0px) and (max-width: 567px) {
+@media (min-width: 0px) and (max-width: 576px) {
   .logo {
     margin-left: 0px;
   }
