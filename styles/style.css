@@ -59,7 +59,7 @@ head {
 
 */
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .logo {
     margin-left: 8px;
   }
@@ -231,7 +231,12 @@ section {
 .text-center {
   text-align: center;
 }
-
+.mw-main-content {
+  min-width:273px;
+}
+.mw-contacts {
+  min-width:304px;
+}
 #contacts iframe {
   width: 100%;
   border-radius: 5px;
