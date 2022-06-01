@@ -10,9 +10,9 @@ $('.menu-item').click(function(){
     $('section').removeClass('show')
     $(`section#${clickSection}`).addClass('show');
 
-    $('.head .menu').removeClass('show');
+    $('.head .menu').removeClass('show-menu');
 })
 
 $('.head .menu-btn').click(function(){
-    $('.head .menu').toggleClass('show');
+    $('.head .menu').toggleClass('show-menu');
 });
